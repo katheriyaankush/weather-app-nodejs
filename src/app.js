@@ -95,7 +95,7 @@ app.get('/about',(req,res)=>{
 app.get('/help', (req,res)=>{
 
     res.render('help', {
-        message:"How Can I help you1",
+        message:"How Can I help you",
         title:"Help",
         name:"Ankush katharia"
     });
