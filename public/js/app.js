@@ -10,7 +10,7 @@ locationValue.addEventListener('submit',(e)=>{
 
     e.preventDefault();
 
-    const url = 'http://localhost:3000/weather?location='+inputVal.value;
+    const url = '/weather?location='+inputVal.value;
     
     fetch(url).then((response) =>{
 
